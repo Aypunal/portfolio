@@ -1,0 +1,831 @@
+{
+    "Competences": {
+        "php": {
+            "logo": "fa-brands fa-php"
+        },
+        "html": {
+            "logo": "fa-brands fa-html5"
+        },
+        "css":{ 
+            "logo": "fa-brands fa-css3-alt"
+        },
+        "bootstrap":{ 
+            "logo": "fa-brands fa-bootstrap"
+        },
+        "js":{ 
+            "fullname":"Javascript",
+            "logo": "fa-brands fa-js"
+        },
+        "jquery":{ 
+            "logo": "imgs/jquery.png"
+        },
+        "twig":{ 
+            "logo": "imgs/twig.png"
+        },
+        "bdd":{ 
+            "fullname": "Bases de données",
+            "logo": "fa-solid fa-database"
+        },
+        "com":{
+            "fullname": "Communication client-serveur",
+            "logo": "fa-solid fa-server"
+        },
+        "connected":{
+            "fullname":"Réseau",
+            "logo": "fa-solid fa-ethernet"
+        },
+        "cablage":{
+            "fullname":"Cablage réseau",
+            "logo": "fa-solid fa-network-wired"
+        },
+        "cctv":{
+            "fullname":"Vidéo-surveillance",
+            "logo": "fa-solid fa-camera-cctv"
+        },
+        "security":{ 
+            "fullname":"Sécurité",
+            "logo": "fa-solid fa-shield-blank"
+        },
+        "drones":{
+            "fullname":"Images aériennes - Drones", 
+            "logo": "fa-solid fa-drone-front"
+        },
+        "camera":{
+            "fullname":"Images terrestre", 
+            "logo": "fa-solid fa-camera"
+        },
+        "java":{
+            "logo": "fa-brands fa-java"
+        },
+        "android":{
+            "logo": "fa-brands fa-android"
+        },
+        "json":{ 
+            "logo": "imgs/json.jpg"
+        },
+        "card":{
+            "fullname":"Utilisation de moyens de paiements", 
+            "logo": "fa-regular fa-credit-card"
+        },
+        "csv":{
+            "fullname":"Exportation/Importation CSV", 
+            "logo": "fa-solid fa-file-spreadsheet"
+        },
+        "google":{
+            "fullname":"Services Google", 
+            "logo": "fa-brands fa-google"
+        },
+        "mail":{
+            "fullname":"Envoi/reception de mail", 
+            "logo": "fa-solid fa-enveloppe"
+        },
+        "python":{
+            "logo": "fa-brands fa-python"
+        },
+        "electrique":{
+            "logo": "fas fa-plug"
+        },
+        "electronique":{
+            "logo": "fas fa-wave-pulse"
+        },
+        "wordpress":{
+            "logo": "fa-brands fa-wordpress"
+        },
+        "react":{
+            "logo": "fa-brands fa-react"
+        },
+        "discord":{
+            "logo": "fa-brands fa-discord"
+        },
+        "oculus":{
+            "fullname":"Casque Oculus Quest", 
+            "logo": "fa-solid fa-head-side-goggles"
+        },
+        "vr":{
+            "fullname":"Réalité virtuelle", 
+            "logo": "fa-solid fa-vr-cardboard"
+        }
+    },
+    "Projets": [
+        {
+            "name": "SMSBox - EvolutiveSMS",
+            "cDesc": "Projet réalisé pour AIT37.<br>Développement d'une interface permettant d'envoyer des SMS à un plus grand nombre de personnes de façon rapide et fiable.",
+            "lDesc": "L'interface web se charge de remplir une base de données à l'aide des informations données par les utilisateurs. Le programme communique avec un modem SMS pour les envoyer vers les numéros. L'idée de cette application part d'un constat simple: l'envoi en masse de SMS coûte très cher. Il fallait donc réaliser une solution de messages low-cost.",
+            "date": 2020,
+            "categorie": 2,
+            "mainimg": "imgs/smsbox.jpeg",
+            "liens": [
+                {
+                    "title": "Lien de démonstration",
+                    "href": "http://smsbox.victordgrd.fr/"
+                }
+            ],
+            "competences": ["php", "html", "css", "bootstrap", "js", "jquery", "twig", "bdd", "com"],
+            "images": [
+                {
+                    "alt": "Page de connexion",
+                    "src": "imgs/smsboxlogin.jpeg"
+                },
+                {
+                    "alt": "Page pour afficher les récapitulatifs",
+                    "src": "imgs/smsboxresultats.png"
+                },
+                {
+                    "alt": "Page d'insertion de nouveau utilisateur",
+                    "src": "imgs/smsboxconfig.png"
+                }
+            ]
+        },
+        {
+            "name": "CCTV",
+            "cDesc": "Installation complète de systèmes de vidéo-surveillance, avec enregistreur, câblage et montage des caméras sur différents supports. Projet personnel pour plusieurs connaissances.",
+            "lDesc": false,
+            "date": 2022,
+            "categorie": 5,
+            "mainimg": "imgs/cctv.jpg",
+            "liens": [],
+            "competences": ["connected", "cablage", "cctv", "security"],
+            "images": []
+        },
+        {
+            "name": "<i class='fas fa-badge-check' data-bs-toggle='tooltip' data-bs-placement='top' title='Un de mes meilleurs projets'></i> Gestionnaire des tâches",
+            "cDesc": "GestTâches est une de mes premières applications web. Elle a pour but de simplifier les demandes de maintenance ou d'informatique dans une organisation.",
+            "lDesc": "En centralisant les données demandes sur une seule et même interface, au lieu d'avoir des mails qui se perdent. Les demandeurs peuvent renseigner toutes les informations nécessaires, mais aussi donner un degré d'urgence pour la demande. Ils peuvent aussi téléverser des photos pour illustrer cette dernière. Les personnes chargées de maintenance peuvent eux, poser des questions concernant les demandes et après les avoirs satisfaites, les clôturées en renseignant le temps passé. Cette information pourra être utilisée par les chefs d'établissement pour compter le temps de travail du/de la maintenancier/ère.",
+            "date": 2018,
+            "categorie": 2,
+            "mainimg": "imgs/gestsfda.png",
+            "liens": [
+                {
+                    "title": "Lien de démonstration temporairement en maintenance",
+                    "href": "#"
+                }
+            ],
+            "competences": ["php","html","css","bootstrap","js","jquery","twig","bdd","csv"],
+            "images": [
+                {
+                    "alt": "Page administrative pour configurer les motifs d'intervention",
+                    "src": "imgs/gestsfda_motifs.jpeg"
+                },
+                {
+                    "alt": "Page utilisateur pour générer les demandes",
+                    "src": "imgs/gestsfda_demande.jpeg"
+                },
+                {
+                    "alt": "Formulaire de contact in-app pour envoyer des mails entre utilisateurs",
+                    "src": "imgs/gestsfda_contact.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "Montage/Reportage en Terminale",
+            "cDesc": "Montage d'une vidéo suite à une sortie en Normandie pour ma classe de Terminale. J'ai suivi tout le voyage à l'aide de mon DJI Ronin et j'ai apporté quelques prises de vue aérienne. J'y ai ensuite réalisé le montage (sur Davinci Resolve). Le montage était carte blanche, j'ai pu monter dans mon style.",
+            "lDesc": false,
+            "date": 2021,
+            "categorie": 4,
+            "mainimg": "https://tube.rvere.com/embed?v=6OHwyQ3ghZc",
+            "liens": [],
+            "competences": ["drones","camera"],
+            "images": []
+        },
+        {
+            "name": "Find a Party",
+            "cDesc": "Projet étudiant (personnel, avec des amis) tout récent et aux prémisses de son développement. Find A Party est une application destinée majoritairement aux jeunes afin de leur permettre de trouver facilement une soirée dans leur ville.",
+            "lDesc": "Le projet est né d'une réflexion commune: il n'y a pas de moyen de centraliser les soirées. C'est donc le but de cette application. C'est tout nouveau pour moi de réaliser une application à destination d'une grande quantité d'utilisateur. La sécurité est de mise. L'application géolocalise automatiquement l'utilisateur pour lui proposer un cercle d'influence, qui représente approximativement le lieu et le nombre de soirées dans la zone. L'adresse exacte des soirées n'est révélée que lorsque l'utilisateur y est convié. On prévoit la promotion de cette application par plusieurs réseaux sociaux directement comme Tiktok qui nous permettent de viser les 15-25 ans très facilement.",
+            "date": "En redéveloppement",
+            "categorie": 3,
+            "mainimg": "imgs/findaparty.png",
+            "liens": [
+                {
+                    "title": "Lien vers le site internet",
+                    "href": "https://find-a-party.fr/"
+                }
+            ],
+            "competences": ["php", "html", "css","bootstrap", "js", "twig", "jquery", "bdd", "android", "google", "security"],
+            "images": [
+                {
+                    "alt": "Pages principales",
+                    "src": "imgs/findaparty_pages.png"
+                },
+                {
+                    "alt": "Pages principales",
+                    "src": "imgs/findaparty_pages_2.png"
+                },
+                {
+                    "alt": "Maquette du site internet",
+                    "src": "imgs/findaparty_maquette_site.png"
+                }
+            ]
+        },
+        {
+            "name": "DrunkApp",
+            "cDesc": "Projet de déploiement d'une application IOS sur Android. Après avoir vu l'application sur Tiktok qui cherchait un développeur, je me suis proposé pour la développer. Le but est de faire un alcoolomètre avec humour ! (Bien évidemment ce n'est pas un algorithme sérieux)",
+            "lDesc": "L'application est très simpliste est basée sur 4 pages qui se suivent.",
+            "date": "2022",
+            "categorie": 3,
+            "mainimg": "imgs/drunkapp.png",
+            "liens": [
+                {
+                    "title": "Lien vers l'application",
+                    "href": "https://play.google.com/store/apps/details?id=fr.victordgrd.drunkapp"
+                }
+            ],
+            "competences": ["json", "android", "google"],
+            "images": [
+                {
+                    "alt": "Pages principales",
+                    "src": "imgs/drunkapp_pages.jpg"
+                }
+            ]
+        },
+        {
+            "name": "AIT37 Do it Yourself",
+            "cDesc": "Nouveau site internet marchand (e-commerce) développé entièrement par mes soins en suivant le design communiqué par le graphiste de l'entreprise. Ce site permet de commander des pièces électroniques directement en ligne.",
+            "lDesc": "Les clients ainsi que les administrateurs ont leurs interfaces permettant de suivre leurs commandes. Les paiements s'effectuent de manière sécurisée avec PayPal. À l'aide des cookies, les clients profitent d'une sauvegarde de leur panier pour leurs prochaines visites.<br><b>Attention, ce site est encore en développement et par conséquent, il n'est pas encore responsive.<b>",
+            "date": 2022,
+            "categorie": 1,
+            "mainimg": "imgs/diyait.jpeg",
+            "liens": [
+                {
+                    "title": "Lien direct",
+                    "href": "https://diy-demo.victordgrd.fr"
+                }
+            ],
+            "competences": ["php","html","css","bootstrap","js","jquery","twig","bdd","card", "mail"],
+            "images": [
+                {
+                    "alt": "Page principale",
+                    "src": "imgs/diyait.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "Montage SFDA37",
+            "cDesc": "Montage d'une vidéo suite à une sortie des secondes du lycée Sainte Marguerite. J'ai effectué quelques plans terrestre à l'aide d'un DJI Ronin mais j'ai principalement fais les prises de vue aérienne ainsi que le montage (sur Davinci Resolve). Le montage était carte presque blanche. On m'a fournit la majorité des plans terrestre.",
+            "lDesc": false,
+            "date": 2021,
+            "categorie": 4,
+            "mainimg": "https://tube.rvere.com/embed?v=kbvscHmpVnU",
+            "liens": [],
+            "competences": ["drones","camera"],
+            "images": []
+        },
+        {
+            "name": "Emploi du temps en ligne",
+            "cDesc": "Projet étudiant (personnel) pour faciliter notre vie sur Paris. Ce site permet de retrouver nos 3 emplois du temps en un seul superposé. J'y ai aussi rajouter des fonctionnalités tels que la météo et nos arrêts de métro/tram.",
+            "lDesc": "En liant mes données d'emploi du temps de l'IUT avec ma base de données, des emplois du temps papier de mon copain et de mon amie, et avec l'aide de l'OpenData API de la RATP le site basé en grande quantité en JS est fait pour simplifier nos tâches quotidienne du matin sur Paris.",
+            "date": "actuellement",
+            "categorie": 3,
+            "mainimg": "imgs/edt_page.jpeg",
+            "liens": [
+                {
+                    "title": "Lien vers le site internet",
+                    "href": "https://edt.victordgrd.r/"
+                }
+            ],
+            "competences": ["js", "jquery", "bdd", "html", "css","bootstrap"],
+            "images": [
+                {
+                    "alt": "Adapté à 100% pour téléphone",
+                    "src": "imgs/tel_edt.png"
+                }
+            ]
+        },
+        {
+            "name": "Hyping",
+            "cDesc": "Mise à jour d'un site Azuriom pour y ajouter des fonctionnalités et travailler l'ergonomie du site du serveur Hyping. Adaptation et re-développement d'un bot discord.",
+            "lDesc": "Pour Hyping, j'ai dû retravailler la page de la boutique du serveur ainsi que d'ajouter des fonctionnalités sur leur page de vote (double sites, notifications, ...). J'ai aussi pu re-développer un bot discord en le transformant afin qu'il accepte les commandes en slash (/<commande>).",
+            "date": "2022",
+            "categorie": 1,
+            "mainimg": "imgs/hyping.png",
+            "liens": [
+                {
+                    "title": "Lien direct",
+                    "href": "https://hyping.fr/"
+                }
+            ],
+            "competences": ["php","html","css","bdd", "discord"],
+            "images": [
+                {
+                    "alt": "Page boutique",
+                    "src": "imgs/hyping_shop.png"
+                }
+            ]
+        },
+        {
+            "name": "<i class='fas fa-turn-up fa-fade' data-bs-toggle='tooltip' data-bs-placement='top' title='Projet enrichissant et formateur'></i> Portail AIT37",
+            "cDesc": "Interface ayant pour but de restituer les données télémétriques des équipements. Cette interface est aussi le point de contrôle des affichages dynamiques.",
+            "lDesc": "Le Portail permet une exploitation simple de ses données. L'interface donne accès à des calculs de totaux sur des périodes, au téléchargement de CSV ou encore au récapitulatif des ventes. Il s'agit jusqu'à lors du projet qui est le plus maintenu avec des mises à jour régulières pour lui apporter de nouvelles fonctionnalités. Elle est quotidiennement utilisée par les clients de la société.",
+            "date": "2018-aujourd'hui",
+            "categorie": 2,
+            "mainimg": "imgs/portailDashboard.jpeg",
+            "liens": [],
+            "competences": ["php","html","css","bootstrap","js","jquery","twig","bdd","csv"],
+            "images": [
+                {
+                    "alt": "Page de récapitulatif total (faux chiffres)",
+                    "src": "imgs/portail_totaux.png"
+                },
+                {
+                    "alt": "Page du détail agrandi (faux chiffres)",
+                    "src": "imgs/portail_tableaux.png"
+                },
+                {
+                    "alt": "Page du détail avec calcul d'un delta (faux chiffres)",
+                    "src": "imgs/portail_tab_delta.png"
+                }
+            ]
+        },
+        {
+            "name": "<i class='fas fa-badge-check' data-bs-toggle='tooltip' data-bs-placement='top' title='Un de mes meilleurs projets'></i> ConnectVacances",
+            "cDesc": "Site internet que j'ai réalisé entièrement suite à une idée en vacances. Le but étant de proposer un QRCode à l'entrée des appartements en location afin de proposer des réductions dans les restaurants aux alentours ainsi que d'afficher les lieux intéressants.",
+            "lDesc": "L'application utilise en grande partie Google Maps afin d'avoir une carte interactive, d'afficher le détail des lieux et de proposer des itinéraires cyclistes. Ces derniers sont détaillés sur les points de vue les plus extraordinaires à voir. Pour le moment, cette application sera déployée uniquement aux Sables d'Olonnes, mais j'espère que dans le futur, je pourrais l'étendre au reste de la France. <br><b>Attention, ce site est encore en développement et par conséquent, il n'est pas encore responsive.<b>",
+            "date": "2021-22",
+            "categorie": 1,
+            "mainimg": "imgs/locinteret.jpeg",
+            "liens": [
+                {
+                    "title": "Lien de démonstration",
+                    "href": "https://connectvacances.victordgrd.fr/"
+                }
+            ],
+            "competences": ["php","html","css","bootstrap","js","jquery","twig","bdd","google"],
+            "images": [
+                {
+                    "alt": "Page d'accueil",
+                    "src": "imgs/connectVacances_homepage.png"
+                },
+                {
+                    "alt": "Page contenant les informations de l'appartement",
+                    "src": "imgs/connectVacances_appartement.png"
+                },
+                {
+                    "alt": "Page contenant les informations de l'appartement",
+                    "src": "imgs/connectVacances_appartement_bottom.png"
+                },
+                {
+                    "alt": "Page contenant les informations d'un lieu sélectionné",
+                    "src": "imgs/connectVacances_placeinfo.png"
+                },
+                {
+                    "alt": "Page contenant les informations d'un lieu sélectionné",
+                    "src": "imgs/connectVacances_placeinfo2.png"
+                }
+            ]
+        },
+        {
+            "name": "Borne de paiement avec affichage dynamique",
+            "cDesc": "AIT37 a développé sa gamme de bornes de paiement avec un écran 32 pouces. Les bornes de cette gamme doivent servir d'affichage d'information tout en servant de borne de don.",
+            "lDesc": "J'ai participé à la réalisation, sur un équipement PAX, d'une application Android pour le terminal de paiement couplée à l'affichage dynamique. Ce dernier était le centre de mon travail. J'ai dû réaliser une interface pour permettre au client de programmer ses écrans, le plus simplement possible (<span class='ref' onclick='openSidebar(13)'><i class='fas fa-info primary w-15p text-center'></i> Affichage Dynamique</span>). J'ai réalisé l'application à l'aide d'Android Studio et des librairies de PAX. Pour finir, les différentes communications furent établies avec des POST au format JSON.",
+            "date": 2021,
+            "categorie": 3,
+            "mainimg": "imgs/bornesait37.png",
+            "liens": [],
+            "competences": ["java","android","js","bdd"],
+            "images": []
+        },
+        {
+            "name": "World Media Counter",
+            "cDesc": "Défi de projet personnel lancé, réalisé en moins de 24 heures en speed-coding. Il s'agit d'une interface faisant le récapitulatif des données utilisateurs d'un réseau social. ",
+            "lDesc": "L'interface restitue le nombre de messages envoyés/reçus, le top des personnes avec lesquels on parle le plus,... Tout cela à l'aide des fichiers mis à disposition par les réseaux sociaux (récente loi RGPD obligeant la transparence des données collectés par les plateformes, et donc récupérable). Pour le moment, le site est compatible avec Instagram, Discord, TikTok, ainsi que les SMS (sous android uniquement pour le moment). Dans un prochain temps, le but serait de calculer les empreintes carbones des utilisateurs pour montrer l'impact de simples messages sur le monde.",
+            "date": 2021,
+            "categorie": 1,
+            "mainimg": "imgs/wmc_home.png",
+            "liens": [
+                {
+                    "title": "Lien vers le site",
+                    "href": "https://wmc.victordgrd.fr/"
+                },
+                {
+                    "title": "Lien contenant un résultat, déjà importé",
+                    "href": "http://wmc.victordgrd.fr/result/03015235qd4-esins"
+                }
+            ],
+            "competences": ["php","html","css","bootstrap","js","jquery","twig","json"],
+            "images": [
+                {
+                    "alt": "Page d'informations et de tutoriels",
+                    "src": "imgs/wmc_info.png"
+                }
+            ]
+        },
+        {
+            "name": "Montage Promotionnel pour Drones37",
+            "cDesc": "Tournage et montage d'une vidéo coorporate pour le site internet et les réseaux sociaux de l'entreprise Drones37. Le tournage s'est effectué à l'aide d'un stabilisateur pour appareil photo DJI Ronin ainsi qu'à l'aide de plusieurs drones télépilotés de chez DJI aussi. Le montage, lui, s'est fait sur Davinci Resolve.",
+            "lDesc": false,
+            "date": 2022,
+            "categorie": 4,
+            "mainimg": "https://tube.rvere.com/embed?v=n9gSwQFo30M",
+            "liens": [],
+            "competences": ["drones", "camera"],
+            "images": []
+        },
+        {
+            "name": "WiFi",
+            "cDesc": "Accompagnement des développeurs d'AIT37 dans le déploiement d'un portail WiFi Public pour un groupe scolaire. J'ai travaillé sur la partie du portail captif (Telmat AccessBox) et sur la configuration des bornes wifi (Ruckus), j'y ai appris l'essentiel d'une infrastructure réseau ainsi que sur la sécurité.",
+            "lDesc": "Le déploiement d'une solution de Wifi public demande une certaine rigueur lorsque l'on parle de sécurité. Il a fallu séparer le réseau utilisé par les postes du groupe du réseau desservant le Wifi. Pour cela, il a fallut séparer le réseau en plusieurs vLan à l'aide de routeurs Cisco. Leur configuration ainsi que celle des bornes WiFi se font essentiellement en SSH. ",
+            "date": 2020,
+            "categorie": 5,
+            "mainimg": "imgs/ruckus.png",
+            "liens": [],
+            "competences": ["connected","cablage"],
+            "images": []
+        },
+        {
+            "name": "Montage SFDA37",
+            "cDesc": "Montage d'une vidéo pour une visite virtuelle du Collège Saint Etienne, ainsi qu'une autre pour le Lycée Sainte Marguerite. Le tournage s'est effectué à l'aide d'un stabilisateur pour téléphone DJI Osmo mobile 2 ainsi qu'à l'aide d'un DJI Mavic 2 Pro. Le montage, lui, s'est fait sur Davinci Resolve.",
+            "lDesc": false,
+            "date": 2022,
+            "categorie": 4,
+            "mainimg": "https://tube.rvere.com/embed?v=fZPZpbKwi3c",
+            "liens": [],
+            "competences": ["drones", "camera"],
+            "images": []
+        },
+        {
+            "name": "Réparation électronique",
+            "cDesc": "Projet personnel et lors de mes temps libres, je propose mes services de réparation de produits électroniques, plus précisément dans les drones. Aussi, de ce temps, je répare mes produits hors-service, comme mes jeux de lumière ou mes guirlandes de Noël (d'une année sur l'autre). Je travaille aussi sur des ordinateurs, étant capable de choisir sa configuration et de la montée de A à Z à partir de rien.",
+            "lDesc": false,
+            "date": "2014-aujourd'hui",
+            "categorie": 5,
+            "mainimg": "imgs/electronique.jpeg",
+            "liens": [],
+            "competences": [],
+            "images": []
+        },
+        {
+            "name": "<i class='fas fa-badge-check' data-bs-toggle='tooltip' data-bs-placement='top' title='Un de mes meilleurs projets'></i> Bornes mobiles",
+            "cDesc": "À la demande de clients à AIT37, le but étant de réaliser des quêtes connectés avec un terminal de paiement mobile, et le plus compacte possible. Le projet fut réalisable à l'aide d'une nouvelle technologie, de chez PAX. Mon travail était de réaliser l'application Android pour ce terminal de paiement ainsi que de finaliser l'interface utilisateur.",
+            "lDesc": "Je dirige jusqu'à maintenant une grande partie de ce projet. Je me charge de la communication des équipements ainsi que de mettre à jour les nouvelles interfaces pour les nouveaux clients. Dès le début de l'application, j'ai optimisé les modifications en implémentant directement un système de téléchargement des informations (nom, interface, prix,..) et des interfaces pour pouvoir envoyer directement les designs aux bornes sans pour autant avoir besoin de faire de mise à jour de l'application Android en elle-même. C'est un gain de temps phénoménal! Ces bornes sont par ailleurs présentes dans de grands sites touristiques comme la Cathédrale de Strasbourg, Notre Dame des Victoires, le Sacré Cœur ou Notre Dame de la Garde!",
+            "date": "2021",
+            "categorie": 3,
+            "mainimg": "imgs/bornesmobile.png",
+            "liens": [],
+            "competences": ["android","bdd","java","json"],
+            "images": [
+                {
+                    "alt": "Exemples de pages sur l'IHM",
+                    "src": "imgs/bm_exemples1.jpg"
+                },
+                {
+                    "alt": "Autre exemples de pages sur l'IHM",
+                    "src": "imgs/bm_exemples2.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Site de prospection",
+            "cDesc": "Application web simple et rapide qui permet l'envoi de mails promotionnels à l'aide d'une base de données importée avec un CSV.",
+            "lDesc": false,
+            "date": "2021",
+            "categorie": 2,
+            "mainimg": "imgs/infoservice.jpeg",
+            "liens": [],
+            "competences": ["php","html","css","js","jquery","twig","bdd","csv", "mail"],
+            "images": [
+                {
+                    "alt": "Page dashboard",
+                    "src": "imgs/infoservice.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "Montage Drones37",
+            "cDesc": "Montage d'une vidéo rapide pour un changement de caserne à Montlouis sur Loire filmé au drone. Montage autonome seulement, sur Davinci Resolve, Drones37 m'a fournit des rushs déjà dérushés.",
+            "lDesc": false,
+            "date": 2022,
+            "categorie": 4,
+            "mainimg": "https://tube.rvere.com/embed?v=nY2aRu-xhhQ",
+            "liens": [],
+            "competences": ["drones", "camera"],
+            "images": []
+        },
+        {
+            "name": "QRCode",
+            "cDesc": "Dans le but de déployer des QRCodes avec les informations en temps réels dans les sites touristiques, ce projet réalisé de A à Z est lié au Portail afin d'administrer le contenu du QRCode directement depuis une interface simplifiée.",
+            "lDesc": "Ces QRCodes sont ensuite consultables par le biais du site internet officiel des QRCodes. Les QRCodes sont proposés à l'entrée des lieux pour que leur clientèle puisse les scanner. Les administrateurs des QRCodes peuvent en modifier la page sur laquelle les informations sont affichés, à leur guise. Aujourd'hui ce projet est en pause mais il est entièrement développé.",
+            "date": 2021,
+            "categorie": 1,
+            "mainimg": "imgs/qrcode.jpeg",
+            "liens": [
+                {
+                    "title": "Lien de démonstration",
+                    "href": "https://monqrcode.ait37.fr/qr/42de21"
+                }
+            ],
+            "competences": ["php","html","css","bootstrap","js","jquery","twig"],
+            "images": [
+                {
+                    "alt": "Page type affichée grâce aux QRCodes",
+                    "src": "imgs/qrcodes_rendufinal.png"
+                }
+            ]
+        },
+        {
+            "name": "<i class='fas fa-badge-check' data-bs-toggle='tooltip' data-bs-placement='top' title='Un de mes meilleurs projets'></i> Sonnette connectée Office de Tourisme Chambray-lès-Tours",
+            "cDesc": "Avec une borne tactile à l'entrée de l'établissement et les ordinateurs du personnel, le but était d'informer une personne concernée, de la présence d'une personne à l'entrée. J'ai effectué la communication avec des Sockets, entre 1 serveur (la borne) et plusieurs clients (les ordinateurs du personnel avec une application client). Le tout, sur un réseau local.",
+            "lDesc": false,
+            "date": 2022,
+            "categorie": 5,
+            "mainimg": "imgs/nophoton.jpg",
+            "liens": [],
+            "competences": ["python", "html", "css", "js", "bdd", "com"],
+            "images": []
+        },
+        {
+            "name": "Gestion d'une ligne de réparation Robot Service 37",
+            "cDesc": "Application web permettant de suivre la réparation d'un robot de piscine dans les locaux de l'entreprise. Il est possible d'y faire le diagnostique, d'envoyer un devis et d'appliquer les réparations faites sur le robot. Les clients ont ensuite un dossier sauvegardé en base de données, permettant d'assurer la maintenance des robots.",
+            "lDesc": "",
+            "date": 2020,
+            "categorie": 2,
+            "mainimg": "imgs/robotservice.jpeg",
+            "liens": [],
+            "competences": ["php", "html", "css", "bootstrap", "js", "jquery", "twig", "bdd", "mail"],
+            "images": [
+                {
+                    "alt": "Page dashboard",
+                    "src": "imgs/smsbox.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "SuperFlag Site officiel",
+            "cDesc": "Site internet One-Page simple réalisé pour un événement sportif.",
+            "lDesc": false,
+            "date": 2021,
+            "categorie": 1,
+            "mainimg": "imgs/superflag.png",
+            "liens": [
+                {
+                    "title": "Lien direct",
+                    "href": "https://superflag.victordgrd.fr/"
+                }
+            ],
+            "competences": ["html", "css", "js"],
+            "images": []
+        },
+        {
+            "name": "Portail Monnaie de Paris",
+            "cDesc": "Fonction équivalente au Portail d'AIT37, le portail de la Monnaie de Paris est une application web permettant de restituer les données de leurs distributeurs de médaille. Ce site assure une rétro-compatibilité entre plusieurs versions de ces machines.",
+            "lDesc": "",
+            "date": "2019-2020",
+            "categorie": 2,
+            "mainimg": "imgs/mdp.jpeg",
+            "liens": [],
+            "competences": ["html", "css", "js", "bootstrap", "jquery", "csv", "twig", "com"],
+            "images": [
+                {
+                    "alt": "Tableau de bord pour se rendre aux différentes machines",
+                    "src": "imgs/mdp_dashboard.png"
+                }
+            ]
+        },
+        {
+            "name": "Drones37 Site officiel",
+            "cDesc": "Reprise d'un site internet One-Page existant afin de le mettre à jour et de lui ajouter deux pages supplémentaires.",
+            "lDesc": false,
+            "date": "2021-2022",
+            "categorie": 1,
+            "mainimg": "imgs/drones37.jpeg",
+            "liens": [
+                {
+                    "title": "Lien direct",
+                    "href": "https://drones37.com/"
+                }
+            ],
+            "competences": ["html", "css", "js"],
+            "images": []
+        },
+        {
+            "name": "Programmation d'un lightshow de Noel",
+            "cDesc": "Projet personnel en l'approche des fêtes, j'ai réalisé un boîtier de contrôle de 6 prises électriques contrôlés par des relais connectés au réseau. Ainsi à l'aide d'un programme Python, je peux contrôler l'ensemble des zones de mes décorations de Noël. A cela, j'y ai ajouté mes jeux de lumières, contrôlés en DMX, pour y ajouter encore plus de show.",
+            "lDesc": false,
+            "date": "12/2021",
+            "categorie": 5,
+            "mainimg": "imgs/noel.jpg",
+            "liens": [],
+            "competences": ["python", "electrique", "electronique"],
+            "images": []
+        },
+        {
+            "name": "Maintenance ActionEco4D",
+            "cDesc": "Site internet sous WordPress, le but était de lui apporter des modifications afin de l'améliorer ainsi que de le maintenir à jour régulièrement.",
+            "lDesc": false,
+            "date": "2021-2022",
+            "categorie": 1,
+            "mainimg": "imgs/actioneco4d.png",
+            "liens": [
+                {
+                    "title": "Lien direct",
+                    "href": "https://action-eco4d.fr/"
+                }
+            ],
+            "competences": ["wordpress"],
+            "images": []
+        },
+        {
+            "name": "<i class='fas fa-badge-check' data-bs-toggle='tooltip' data-bs-placement='top' title='Un de mes meilleurs projets'></i> Affichage dynamique",
+            "cDesc": "Projet que j'ai pu réaliser de A à Z, passant du serveur au client jusqu'à la gestion des données. L'affichage dynamique est une solution simple d'utilisation permettant de faire passer de l'information sur des supports d'affichage tout en étant configuré depuis un serveur (le portail).",
+            "lDesc": "Ce projet comprend l'interface de programmation des affichages ainsi que l'affichage en lui même sur différents périphériques. En effet, l'affichage dynamique est adapté pour les bornes 32 pouces, pour les boîtiers que j'ai développé (sous Android) ainsi que sur une application Web. L'interface sur le portail permet de créer des séquences qui répète donc les éléments qui sont à l'intérieur en boucle. Mais aussi d'importer un élément unique qui va rester afficher jusqu'à ce que l'utilisateur reprogramme un nouvel élément. Cette programmation peut être effectuée au jour le jour tout comme elle peut être programmée à l'avance. Une fonctionnalité à laquelle j'ai réfléchi, serait d'ajouter une planification de tâches récurrentes.",
+            "date": "2022",
+            "categorie": 2,
+            "mainimg": "imgs/portailAffichageDynamique.jpeg",
+            "liens": [
+                {
+                    "title": "Lien direct",
+                    "href": "https://portail.ait37.fr/login",
+                    "identifiants": "demonstrateur@ait37.fr;pass"
+                }
+            ],
+            "competences": ["java", "android", "bdd", "com", "security"],
+            "images": [
+                {
+                    "alt": "Exemple d'affichage avec un layout",
+                    "src": "imgs/affichage_dynamique_tv.png"
+                },
+                {
+                    "alt": "Dashoard de modification/programmation des éléments",
+                    "src": "imgs/affichage_dynamique_config.png"
+                },
+                {
+                    "alt": "Configuration d'une séquence",
+                    "src": "imgs/affichage_dynamique_seqs.png"
+                }
+            ]
+        },
+        {
+            "name": "<i class='fas fa-medal fa-shake' data-bs-toggle='tooltip' data-bs-placement='top' title='Une de mes meilleures expériences'></i> OsmériaCraft",
+            "cDesc": "Projet personnel important sur le jeu <b>Minecraft</b>. Avec plusieurs amis, on s'est lancé dans la création d'un network (un serveur de jeu composé de plusieurs serveurs) entier afin d'y réunir une communauté. Le projet a ouvert ses portes lors du premier confinement et a rassemblé plus de 100 joueurs sur le jeu.",
+            "lDesc": "Et une communauté de plus de 900 joueurs sur notre serveur Discord. Je suis le fondateur ainsi que le développeur du projet, je devais m'occuper de tout le développement de l'infrastructure ainsi que des différents problèmes que pouvaient avoir les joueurs. Mon travail consistait en grande partie a développer le mod principal du jeu ainsi que différents plugins pour que les joueurs puissent interagir avec le serveur. J'ai élaboré la communication entre le serveur de jeu, le joueur et la base de données du site. Le projet est malheureusement fermé aujourd'hui mais cela reste une de mes meilleures expériences à ce jour.",
+            "date": "2020-2021",
+            "categorie": 1,
+            "mainimg": "imgs/Osmeria.png",
+            "liens": [
+                {
+                    "title": "Lien démonstration du site internet",
+                    "href": "https://osmeriacraft.victordgrd.fr/"
+                }
+            ],
+            "competences": ["java", "php", "html", "css","bootstrap", "js", "react", "jquery", "discord", "csv", "twig", "json", "bdd", "com"],
+            "images": []
+        },
+        {
+            "name": "Montage publicitaire pour Drones37",
+            "cDesc": "Montage d'une vidéo démonstrative et publicitaire pour le site internet et les réseaux sociaux de l'entreprise Drones37. Pour le montage (effectué sur Davinci Resolve), on me fournit les rushs bruts et je dois m'adapter au format demandé et je dois aussi y trouver une musique en conséquence.",
+            "lDesc": false,
+            "date": 2022,
+            "categorie": 4,
+            "mainimg": "https://tube.rvere.com/embed?v=LSCmMjk-riM",
+            "liens": [],
+            "competences": ["drones", "camera"],
+            "images": []
+        },
+        {
+            "name": "Cagnote en ligne Téléthon Saint-Branchois",
+            "cDesc": "Un projet personnel demandé par un ami participant à l'organisation du téléthon 2021 à Saint Branchs, il fallait un site internet très simplifié permettant de voir en direct la cagnotte de l'événement. Il pouvait, depuis son téléphone, la mettre à jour.",
+            "lDesc": false,
+            "date": "2022",
+            "categorie": 1,
+            "mainimg": "imgs/telethon.jpeg",
+            "liens": [],
+            "competences": ["html", "js", "css", "bdd"],
+            "images": []
+        },
+        {
+            "name": "Gestionnaire d'accès",
+            "cDesc": "Application web permettant de configurer des profils d'accès des utilisateurs d'un lieu (bâtiment administratif, université,..). Cette interface est reliée par une base de données serveur à une multitude de clients, correspondant aux portiers sans fil ou non.",
+            "lDesc": "Les données que saisissait l'utilisateur devaient être enregistrées dans la base de données principale (maître) et le serveur devait ensuite mettre à jour toutes les centrales en envoyant sa base de données en copie. Chaque centrale gère alors une unité de portiers qui demandent à chaque passage d'une carte, l'autorisation ou non d'ouvrir.",
+            "date": "2018-2020",
+            "categorie": 2,
+            "mainimg": "imgs/gestaccess.png",
+            "liens": [
+                {
+                    "title": "Lien de démonstration temporairement en maintenance",
+                    "href": "#"
+                }
+            ],
+            "competences": ["php", "html", "css","bootstrap", "js", "twig", "jquery", "bdd"],
+            "images": [
+                {
+                    "alt": "Dashoard de modification",
+                    "src": "imgs/gestaccess.png"
+                }
+            ]
+        },
+        {
+            "name": "Projet de réalité virtuelle",
+            "cDesc": "La basilique Notre Dame de la Garde nous a confié le projet de réaliser un film 360° des lieux ainsi qu'une pièce dédiée à ces équipements. À l'aide de caméras 360 ainsi que de casques de réalité virtuelle (Oculus), le but est de fournir la meilleure expérience aux futurs visiteurs de Notre Dame de la Garde. PROJET ABANDONNÉ",
+            "lDesc": false,
+            "date": "2022",
+            "categorie": 5,
+            "mainimg": "imgs/Realite_Virtuelle.png",
+            "liens": [],
+            "competences": ["vr", "oculus"],
+            "images": []
+        },
+        {
+            "name": "Site officiel AIT37",
+            "cDesc": "Site vitrine pour le site d'AIT37, composé de plusieurs pages, avec ses textes modifiables depuis une interface administrateur.",
+            "lDesc": false,
+            "date": "2020",
+            "categorie": 1,
+            "mainimg": "imgs/ait37.jpeg",
+            "liens": [
+                {
+                    "title": "Lien direct",
+                    "href": "https://ait37.fr/"
+                }
+            ],
+            "competences": ["php", "html", "css", "bootstrap", "js","jquery", "twig", "bdd"],
+            "images": []
+        },
+        {
+            "name": "API AIT37",
+            "cDesc": "Interaction entre les équipements et la base de données maître (hébergée)",
+            "lDesc": false,
+            "date": "2014-2022",
+            "categorie": 5,
+            "mainimg": "imgs/nophoton.jpg",
+            "liens": [],
+            "competences": ["php", "json", "bdd"],
+            "images": []
+        },
+        {
+            "name": "Vérificateur d'accès RFID",
+            "cDesc": "Application simple sous android permettant aux établissements de vérifier le régime horaires des élèves à partir de leurs cartes étudiants RFID.",
+            "lDesc": "",
+            "date": "2022",
+            "categorie": 3,
+            "mainimg": "imgs/rfid_app.jpg",
+            "liens": [],
+            "competences": ["android","bdd","google"],
+            "images": [
+                {
+                    "alt": "Page principale",
+                    "src": "imgs/smsbox.jpeg"
+                }
+            ]
+        },
+        {
+            "name": "Mon portfolio !",
+            "cDesc": "Vous êtes actuellement dessus, mon portfolio, entièrement développé à la main.",
+            "lDesc": false,
+            "date": "2022",
+            "categorie": 1,
+            "mainimg": "imgs/portfolio.png",
+            "liens": [],
+            "competences": ["html", "css", "bootstrap", "js", "jquery"],
+            "images": []
+        }
+        
+    ],
+    "Avis": [
+        {
+            "name": "M LePrince",
+            "categorie": 2,
+            "role": "Professeur de Mathématiques à Sainte Marguerite",
+            "message": "J'ai été le prof de maths de Victor en Seconde et Première. C'est un garçon sérieux et fiable. La phrase qui le caractérise le mieux est : &quot;Les obstacles sont ces choses effrayantes que vous apercevez lorsque vous détournez les yeux de votre objectif&quot;. Jamais il ne se détourne de ses objectifs."
+        },
+        {
+            "name": "Mme Mandonnet",
+            "categorie": 2,
+            "role": "Adjointe de Direction à Sainte Marguerite",
+            "message": "Victor a toujours répondu présent pour promouvoir et animer l'établissement. Il se donne sans compter, comprend vite les attentes et cherche vraiment à fournir un travail digne d'un professionnel. Il a souvent été  force de proposition  également. C'est un jeune sérieux,  passionné et déterminé à réussir, tout en restant conscient de ses limites, signe d'intelligence s'il en est un !"
+        },
+        {
+            "name": "Mme Allain",
+            "categorie": 2,
+            "role": "Professeure de Mathématiques à Sainte Marguerite",
+            "message": "Victor est un élève très agréable qui a pris conscience du travail à fournir en spécialité mathématiques. Malgré des difficultés de restitution de ses connaissances, il s'est donné les moyens de progresser tout au long de son année de terminale."
+        },
+        {
+            "name": "Mme Moisy",
+            "categorie": 2,
+            "role": "Professeure de Sciences Physiques à Sainte Marguerite",
+            "message": "..."
+        },
+        {
+            "name": "DEGROLARD Bertrand",
+            "categorie": 1,
+            "role": "Dirigeant AIT37",
+            "message": "Victor fait preuve de maturité quand il s'agit de développer, il a la faculté de traduire un cahier des charges informatique en algorithme. C'est un réel plaisir de partager sur des sujets techniques."
+        },
+        {
+            "name": "M Brière",
+            "categorie": 2,
+            "role": "Professeur de NSI à Sainte Marguerite",
+            "message": "En informatique, Victor n'a jamais réellement eu de soucis. Motivé, sérieux et soucieux de bien faire, il a régulièrement su se remettre en question pour s'améliorer."
+        },
+        {
+            "name": "M Ludovic Alamargot",
+            "categorie": 2,
+            "role": "CPE au Collège Saint Etienne",
+            "message": "Mon cher Victor,<br>Je tiens à profiter ce cet espace réservé pour te remercier pour tes années de collégien.<br>Des adjectifs pour te décrire ? Curieux, agréable, sérieux, chaleureux<br>Des qualités ? Tu es une personne de confiance, très pro dans ce que tu entreprends et très souriant<br>Un petit défaut ? En cherchant bien, j’en ai trouvé un, hé hé ! Obstiné :) Mais c’est un défaut qui pour l’instant t’a surtout permis de progresser, d’aller au bout de tes projets…<br>Mon meilleur souvenir ? En fait j’en ai plein, ça sera surtout une impression globale, le souvenir que tu étais toujours disponible pour organiser des activités mais aussi tout simplement pour discuter.<br>Je te souhaite le meilleur mon cher Victor."
+        },
+        {
+            "name": "PELARD Stéphane",
+            "categorie": 1,
+            "role": "Dirigeant Drones37",
+            "message": "Victor me seconde dans beaucoup de domaines. Mon site internet avec des modifications, aménagements et mises à jour régulières. Ma communication sur les réseaux. Les montages vidéos de mes prestations. La maintenance de mes drones. Chacune de mes demandes est effectuée avec enthousiasme, ténacité et professionnalisme. Victor ne recule devant rien et trouve toujours une solution sans jamais se décourager. Il est également efficace, rapide et toujours d'humeur égale. <br>Je le recommande vivement."
+        }
+    ]
+}
