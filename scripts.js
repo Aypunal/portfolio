@@ -15,7 +15,7 @@ $( document ).ready(function() {
 	
 	function loadInfos() {
 		
-		$.post("api.php",{"getActivitys": true},
+		$.post("https://victor.ait37.fr/api.php",{"getActivitys": true},
 		function(data, status){
 			informations = JSON.parse(data)
 			
@@ -195,7 +195,7 @@ function sendMessage() {
 	});
 	
 	if(!haveInvalid){
-		$.post("api.php",
+		$.post("https://victor.ait37.fr/api.php",
 		{
 			"name": $("#inputName").val(),
 			"mail": $('#inputMail').val(),
